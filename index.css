@@ -1,4 +1,41 @@
-html {
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
-background-color: blue;
+.main_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.paris{
+    width: 64px;
+    height: 64px;
+    margin: 5px;
+    
+}
+.nav_menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.menu_item {
+    margin: 30px;
+}
+.poisk {
+    width: 64px;
+    height: 64px;
+} 
+
+.logo_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.fon {
+    width: 1920px;
+    height: 1080px;
 }
