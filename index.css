@@ -29,9 +29,25 @@ html, body {
 }
 
 .menu_item {
+    width: 130px;
+    height: 30px;
     margin: 30px;
     text-decoration: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #C4C4C4;
 }
+
+.menu_item:hover {
+    opacity: 0.7;
+}
+
+.menu_item:active {
+    background-color: antiquewhite;
+}
+
 .poisk {
     width: 64px;
     height: 64px;
@@ -72,6 +88,10 @@ html, body {
     right: 700px;
     top: 550px;
     border-radius: 25px;
+    opacity: 85%;
+}    
+.dybai:hover {
+    opacity: 0.7;
 }
 
 .paris {
@@ -82,6 +102,10 @@ html, body {
     right: 400px;
     top: 550px;
     border-radius: 25px;
+    opacity: 85%;
+}
+.paris:hover {
+    opacity: 0.7;
 }
 
 .sothi {
@@ -92,6 +116,10 @@ html, body {
     right: 100px;
     top: 550px;
     border-radius: 25px;
+    opacity: 85%;
+}
+.sothi:hover {
+    opacity: 0.7;
 }
 
 .paris_text {
@@ -99,7 +127,7 @@ html, body {
     right: 470px;
     top: 560px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .dybai_text {
@@ -107,7 +135,7 @@ html, body {
     right: 785px;
     top: 560px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .sothi_text {
@@ -115,6 +143,98 @@ html, body {
     right: 190px;
     top: 560px;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+#rectangle {
+    position: absolute;
+    left: 42px;
+    top: 350px;
+    width: 450px;
+    height: 110px;
+    background: #C4C4C4;
+    border-radius: 200px;
+    opacity: 85%;
+}    
+#rectangle:hover {
+        opacity: 0.7;
+}
+    
+#rectangle:active {
+        background-color: antiquewhite;
+}
+.travel {
+    position: absolute;
+    left: 70px;
+    top: 345px;
+    color: white;
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url("resources/");
+}
+
+.travel_travel {
+    font-family: Quicksand;
+}
+
+.arrow-1 {
+    left: 330px;
+    top: -390px;
+    position: absolute;
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin: 20px;
+    opacity: 85%;
+}
+.arrow-1 div {
+    position: relative;
+    top: 20px;
+    width: 90px;
+    height: 10px;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    left:0;
+    display: block;
+}
+.arrow-1 div::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: -11px;
+    right: -8px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.arrow-1 div::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 10px;
+    top: 11px;
+    right: -8px;
+    background-color: white;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+    transform: rotate(-45deg);
+}
+.section {
+    width: 100%;
+    height: 100%;
+    background-image: url("Главная картинка 2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.fon2 {
+    width: 100%;
+    height: 100%;
+}
+
+.text_text {
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+    font-weight: 600;
+}
