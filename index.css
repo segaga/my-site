@@ -10,7 +10,7 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
 }
-.paris{
+.img_paris{
     width: 64px;
     height: 64px;
     margin: 5px;
@@ -23,8 +23,14 @@ html, body {
     margin: 5px;
 }
 
+.no_ref_decoration {
+    text-decoration: none;
+    color: black;
+}
+
 .menu_item {
     margin: 30px;
+    text-decoration: none;
 }
 .poisk {
     width: 64px;
@@ -39,3 +45,76 @@ html, body {
     width: 1920px;
     height: 1080px;
 }
+
+.first_section {
+    width: 100%;
+    height: 100%;
+    background-image: url("фон сайта.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.image_with_header {
+    position: relative;
+}
+
+.image_header {
+    color: white;
+    position: absolute;
+    left: 250px;
+}
+
+.dybai {
+    width: 250px;
+    height: 150px;
+    justify-content: right;
+    position: absolute;
+    right: 700px;
+    top: 550px;
+    border-radius: 25px;
+}
+
+.paris {
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    position: absolute;
+    right: 400px;
+    top: 550px;
+    border-radius: 25px;
+}
+
+.sothi {
+    width: 250px;
+    height: 150px;
+    justify-content: left;
+    position: absolute;
+    right: 100px;
+    top: 550px;
+    border-radius: 25px;
+}
+
+.paris_text {
+    position: absolute;
+    right: 470px;
+    top: 560px;
+    text-decoration: none;
+    color: black;
+}
+
+.dybai_text {
+    position: absolute;
+    right: 785px;
+    top: 560px;
+    text-decoration: none;
+    color: black;
+}
+
+.sothi_text {
+    position: absolute;
+    right: 190px;
+    top: 560px;
+    text-decoration: none;
+    color: black;
+}
+
